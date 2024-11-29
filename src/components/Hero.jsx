@@ -8,9 +8,9 @@ import CV from '../assets/cv.pdf'
 const Hero = () => {
   return (
     <>
-    <div className='bg-black flex-col space-y-7 '>
-    <div className='mb-6 flex'>
-        <img src={ProfileImg} alt='profile image'/>
+    <div className='bg-black flex-col space-y-7 h-screen snap-center px-10 min-w-96'>
+    <div className='mb-6 flex justify-center'>
+        <img className='size-52 ' src={ProfileImg} alt='profile image'/>
     </div>
     <div className='text-white text-center'>
         <h1 className='font-bold text-3xl'>Niraj <br /> Dhodi</h1>
@@ -27,10 +27,10 @@ const Hero = () => {
             <img className='size-14' src={Github} alt='github'/>
         </a>
     </span>
-    <p className='text-gray-300 text-center'>Hello folks, I'm a full-stack developer based in Pune, India.</p>
+    <p className='text-gray-300 text-center max-w-70'>Hello folks, I'm a full-stack developer based in Pune, India.</p>
     <div className='flex flex-col items-center justify-center'>
     <a href={CV} download>
-        <button className='bg-blue-600 rounded-md px-5 py-1 font-bold text-white font-serif hover:bg-sky-700'>Resume</button>
+        <button className='text-xl bg-blue-600 rounded-md px-5 py-1 font-bold text-white font-serif hover:bg-sky-700'>Resume</button>
     </a>
     </div>
     </div>

@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 const App = () => {
   return (
     <>
-    <div className=''>
+    <div className='h-screen snap-y scroll-smooth overflow-auto'>
     <Hero />
     <Experience />
     <Projects />

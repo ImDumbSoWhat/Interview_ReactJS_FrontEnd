@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className='h-screen snap-center'>Projects</div>
   )
 }
 
