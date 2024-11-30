@@ -8,9 +8,10 @@ import CV from '../assets/cv.pdf'
 const Hero = () => {
   return (
     <>
-    <section className='md:grid md:grid-cols-2 md:gap-3 bg-gradient-to-r from-black via-gray-800 to-gray-600 flex-col space-y-7 h-screen snap-center px-6 min-w-96'>
+    
+    <section className='md:grid md:grid-cols-2 md:gap-3  flex-col space-y-7 h-screen snap-center px-6 min-w-96'>
     <div className='mb-6 flex justify-center md:place-items-center'>
-        <img className='size-64 md:size-96 md:place-content-center rounded-3xl' src={ProfileImg} alt='profile image'/>
+        <img className='size-64 mt-10 md:size-96 md:place-content-center rounded-3xl' src={ProfileImg} alt='profile image'/>
     </div>
     <div className='text-center md:place-content-center'>
         <h1 className='font-bold text-3xl md:text-6xl text-white mb-6'>Niraj <br /> Dhodi</h1>
