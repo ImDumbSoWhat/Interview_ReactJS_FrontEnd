@@ -15,7 +15,7 @@ const Experience = () => {
     <>
     <div className='h-screen snap-center pb-4  '>
     <div className='pb-10'>
-      <h2 className='text-center text-white text-4xl my-2 lg:my-14'>Skills</h2>
+      <h2 className='text-center text-white text-4xl underline font-bold my-2 lg:my-14'>Skills</h2>
       <div className='flex flex-wrap items-center justify-center gap-4'>
         <img className='size-16 lg:size-24' src={java} alt='java'/>
         <img className='size-16 lg:size-24' src={spring} alt='spring'/>
@@ -28,7 +28,7 @@ const Experience = () => {
       </div>
     </div>
     <div >
-      <h2 className='mb-2 lg:my-14 text-center text-4xl text-white'>EXPERIENCE</h2>
+      <h2 className='mb-2 lg:my-14 text-center text-4xl text-white underline font-bold'>EXPERIENCE</h2>
       <div>
         {WorkHistory.map((experience,index) => (
           <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
