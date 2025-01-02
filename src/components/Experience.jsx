@@ -28,7 +28,7 @@ const Experience = () => {
       </div>
     </div>
     <div >
-      <h2 className='mb-2 lg:my-14 text-center text-4xl text-white underline font-bold'>EXPERIENCE</h2>
+      <h2 className='mb-2 lg:my-14 text-center text-4xl text-white underline font-bold py-5'>EXPERIENCE</h2>
       <div>
         {WorkHistory.map((experience,index) => (
           <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>

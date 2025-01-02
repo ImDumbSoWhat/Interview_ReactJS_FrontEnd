@@ -1,5 +1,6 @@
 import React from 'react'
 import { DanceGirl } from '../project/DanceGirl'
+import ChatRoom from '../project/ChatRoom'
 
 const Projects = () => {
   return (
@@ -9,6 +10,7 @@ const Projects = () => {
     {/* <div className='h-4/5'>
     <DanceGirl />
     </div> */}
+    <div className='h-screen w-screen flex justify-center'><ChatRoom /></div>
     </div>
     </>
   )
